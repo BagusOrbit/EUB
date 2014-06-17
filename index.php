@@ -68,18 +68,16 @@
     <link rel="stylesheet" type="text/css" href="css/customes.css">
 </head>
 <body>
+<font color="gold" face="elephant"><center><h1>Nama Instasi</h1></center></font>
 
 <nav class="navbar navbar-default" role="navigation">
 	<div class="container-fluid">
-		<ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span><b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="logout.php">Log Out</a></li>
-            
-          </ul>
-        </li>
-      </ul>
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"></span>
+Profile</a>
+			<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-camera"></span>Foto</a>
+		</div>
+      
 	</div>
 </nav>
 
@@ -98,12 +96,11 @@
 </div> -->
 
 
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-  
-  
-	<center>
-	<h3>DATA DOSEN</h3>
+
+
+<div class="container">
+<center>
+	<font color="green" face="elephant"><h3>DATA DOSEN<span class="glyphicon glyphicon-list-alt"></span></h3></font>
 		<table>
 			<tr>
 				<td>Nama</td>
@@ -111,19 +108,12 @@
 				<td><?php echo "&nbsp;".$currentDosen->nama_dosen; ?></td>
 			</tr>
 			<tr>
-				<td>Matakuliah</td>
+				<td width="100">Matakuliah</td>
 				<td>:</td>
 				<td><?php echo "&nbsp;".$currentDosen->nama_makul; ?></td>
 			</tr>
 		</table>
 	</center>
-		
-  </div>
-</div>
-
-<hr>
-
-<div class="container">
 	<form method="post" action="index.php?dosen=<?php echo $_GET['dosen']; ?>">
 	<?php 
 		$no = 1;

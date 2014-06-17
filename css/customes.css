@@ -20,7 +20,7 @@ footer {
 	background-color: #F7981C;
 }
 body{
-	/*background-color: #F7981C;*/
+	background-color: #228B22;
 }
 .table{
 	background-color: #fdf5e6;
@@ -30,3 +30,9 @@ body{
 	color: white;
 	text-align: center;
 }**//*/*/
+.container {
+	background-color: white;
+}
+.row {
+	background-color: white;
+}
