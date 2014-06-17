@@ -1,0 +1,44 @@
+body {
+	background: #E9E9E9;
+	padding-top: 50px;
+}
+
+.content {
+	margin-top: 20px;
+}
+
+.form-delete {
+	display: inline;
+}
+
+.col-action {
+	text-align: right;
+}
+
+.pager {
+	margin: 0;
+}
+
+.heading-inner {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+
+.heading-inner li {
+	display: inline;
+}
+
+.heading-inner .title > h3 {	
+	margin: 0;
+	display: inherit;
+	line-height: 1.3;
+}
+
+.heading-inner .navigation {	
+	float: right;
+}
+
+.heading-inner li > a {
+	display: inline-block;
+}
