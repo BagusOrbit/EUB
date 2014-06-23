@@ -1,3 +1,10 @@
+<?php session_start();                           
+    
+  if (! isset($_SESSION['login']))
+  {
+    header('location:login.php');
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,14 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Name Aplikasi</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/customes.css">    
+    <link rel="stylesheet" type="text/css" href="css/customes.css">
+    <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
-  <font color="white" face="elephant"><center><h1>Nama Instasi</h1></center></font>
-    <font color="white"><i><marquee>Selamat Datang Di Aplikasi ....
-    </marquee></i>
-   </font>
-
+  
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -43,19 +47,15 @@ Beranda</a>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-file"></span>Laporan<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Laporan </a></li>
-            <li><a href="#">Laporan </a></li>
-            <li><a href="#">Laporan</a></li>
+            <li><a href="laporan/dosen/index.php">Laporan Dosen</a></li>
+            <li><a href="laporan/mahasiswa/index.php">Laporan Mahasiswa</a></li>
           </ul>
         </li>
         
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span><b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="logout.php">Log Out</a></li>
-          </ul>
+        <li>
+          <a href="logout.php" data-toggle="tooltip" data-placement="bottom" title="Log Out"><span class="glyphicon glyphicon-user"></span></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -74,13 +74,13 @@ Beranda</a>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/billboard2.jpg" alt="First slide" width="730">
+          <img src="img/billboard2.jpg" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" >
         </div>
         <div class="item">
-          <img src="img/billboard2.jpg" alt="First slide" width="730">
+          <img src="img/billboard2.jpg" data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" >
         </div>
         <div class="item">
-          <img src="img/billboard2.jpg" alt="First slide" width="730">
+          <img src="img/billboard2.jpg" data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
         </div>
       </div>
       <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -92,6 +92,7 @@ Beranda</a>
     </div>
   </div>
  </center>
+
 
  
 

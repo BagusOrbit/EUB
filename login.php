@@ -51,9 +51,17 @@
 		{
 			$_SESSION['login'] = 1;
 			$_SESSION['user'] = $row->kode_user;
+			$_SESSION['level'] = $row->level;
 
-
-			header("location:index.php?dosen=0");
+			if ($_SESSION['level']=="2") 
+			{
+				header("location:index1.php?dosen=0");	
+			}
+			else
+			{
+				header("location:index2.php");
+			}
+			
 		}
 		else
 		{

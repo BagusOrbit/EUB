@@ -1,4 +1,10 @@
-<?php 
+<?php session_start();                           
+    
+  if (! isset($_SESSION['login']))
+  {
+    header('location:login.php');
+  }
+
 require_once "repository.php";
 $repo = new Repository();
 
@@ -36,10 +42,7 @@ if (isset($_GET['q']))
     
 </head>
 <body>
-<font color="white" face="elephant"><center><h1>Nama Instasi</h1></center></font>
-    <font color="white"><i><marquee>Selamat Datang Di Aplikasi ....
-    </marquee></i>
-   </font>
+<!-- <img src="img/head.jpg" height="100" width="1349"> -->
 
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
@@ -70,9 +73,8 @@ Beranda</a>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-file"></span>Laporan<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Laporan </a></li>
-            <li><a href="#">Laporan </a></li>
-            <li><a href="#">Laporan</a></li>
+            <li><a href="../../laporan/index.php">Laporan Dosen</a></li>
+            <li><a href="../../laporan/index.php">Laporan Mahasiswa</a></li>
           </ul>
         </li>
         

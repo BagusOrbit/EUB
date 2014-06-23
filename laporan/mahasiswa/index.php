@@ -2,26 +2,26 @@
     
   if (! isset($_SESSION['login']))
   {
-    header('location:login.php');
+    header('location:../../login.php');
   }
 
-  require_once "repository.php";
-  $repo = new Repository();
-  $rows = $repo->getById($_GET['id']);
-?>
+	require_once "repository.php";
+	$repo = new Repository();
+	$result = $repo->getAll();
+
+ ?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Name Aplikasi</title>
-    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+	<title>System Management</title>
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/customes.css">
-  </head>
-  
-  <body>
-<!-- <img src="img/head.jpg" height="100" width="1349"> -->
+</head>
+<body>
+
 
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
@@ -43,10 +43,10 @@ Beranda</a>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-briefcase"></span> Master<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="../users/index.php">Users</a></li>
-            <li><a href="../dosen/index.php">Dosen</a></li>
+            <li><a href="../../master/users/index.php">Users</a></li>
+            <li><a href="../../master/dosen/index.php">Dosen</a></li>
             <li><a href="#">Matakuliah</a></li>
-            <li><a href="index.php">Soal</a></li>
+            <li><a href="../../master/soal/index.php">Soal</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -59,71 +59,75 @@ Beranda</a>
         
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span><b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="../../logout.php">Log Out</a></li>
-          </ul>
+        <li>
+          <a href="logout.php" data-toggle="tooltip" data-placement="bottom" title="Log Out"><span class="glyphicon glyphicon-user"></span></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
+<!-- <div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			
+				<img class="img-cyrcle" src="mg/brosur depan baru.jpg" width="700">
+				
+		</div>
+		<div class="col-md-4">
+			<h2>Evaluasi Untuk Belajar</h2>
+		</div>
+			
+	</div>
+</div> -->
+
+
+
+
 <div class="container">
+<center><h1>Laporan Partisipasi Mahasiswa</h1></center>
+<h3>Data Mahasiswa Yang Telah EUB</h3>
+<table>
+	<table class="table table-bordered">
+		<tr>
+			<th width="20">No.</th>
+			<th>Nama Mahasiswa</th>
+			<th>Jurusan</th>
+		</tr>
+		<?php
+			$no = 1;
+			foreach ($result as $row) 
+				{
+		?>
 
-    <h1>Edit Data Dosen</h1></center>
-    <form  role="form" method="post">
-    <input type="hidden" name="id" value="<?php echo $rows->id; ?>">
-      <div class="form-group">
-        <div>
-          <label>Pertanyaan</label>
-          <input class="form-control" value="<?php echo $rows->soal; ?>" name="soal">
-        </div>
-      </div>
-      
-      <div class="form-group">
-        <div>
-          <button type="submit" class="btn btn-primary">Simpan</button>
-          <a href="index.php"><button type="button" class="btn btn-success">Batal</button></a>
-        </div>
-      </div>
+		<tr>
+			<td><?php echo $no++; ?></td>
+			<td><?php echo $row->nama; ?></td>
+			<td><?php echo $row->fakultas; ?></td>
+		</tr>
 
-    </form>
+		<?php
+			}
+		?>
+
+		<tr>
+			<td colspan="2">
+				<?php 
+					echo "Total data :".$repo->rowCount();
+				?>
+			</td>
+		</tr>
+	</table>
+</table>
+	
 </div>
-     
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!--Include all compiled plugins (below), or include individual files as needed -->
     <script src="../../js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="../../js/jquery.js"></script>
-<script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.js"></script>
+	<script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
 
-<?php 
-  if ($_POST) 
-  {
-    $id = $_POST['id'];
-    $soal = $_POST['soal'];
-    
-    if ($soal != null) 
-    {
-      $result = $repo->Update($soal,$id);
-      if ($result) 
-      {
-        header("location:index.php");
-      }
-      else
-      {
-        echo "Data gagal disimpan";
-      }
-    }
-    else
-    {
-      echo "Data nama harus diisi";
-    }
-  }
-?>
