@@ -73,8 +73,8 @@ Beranda</a>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-file"></span>Laporan<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="../../laporan/index.php">Laporan Dosen</a></li>
-            <li><a href="../../laporan/index.php">Laporan Mahasiswa</a></li>
+            <li><a href="../../laporan/dosen/index.php">Laporan Dosen</a></li>
+            <li><a href="../../laporan/mahasiswa/index.php">Laporan Mahasiswa</a></li>
           </ul>
         </li>
         

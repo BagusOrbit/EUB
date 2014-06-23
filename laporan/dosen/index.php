@@ -61,7 +61,7 @@ Beranda</a>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="logout.php" data-toggle="tooltip" data-placement="bottom" title="Log Out"><span class="glyphicon glyphicon-user"></span></a>
+          <a href="../../logout.php" data-toggle="tooltip" data-placement="bottom" title="Log Out"><span class="glyphicon glyphicon-user"></span></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

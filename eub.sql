@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jun 17, 2014 at 11:08 AM
+-- Generation Time: Jun 23, 2014 at 09:50 AM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.16
 
@@ -55,29 +55,37 @@ CREATE TABLE IF NOT EXISTS `hasil_jawaban` (
   `soal` varchar(20) NOT NULL,
   `jawaban` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=112 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=153 ;
 
 --
 -- Dumping data for table `hasil_jawaban`
 --
 
 INSERT INTO `hasil_jawaban` (`id`, `kode_jawaban`, `soal`, `jawaban`) VALUES
-(96, 59, '1 ', '1'),
-(97, 59, '2 ', '2'),
-(98, 59, '3 ', '2'),
-(99, 59, '4 ', '3'),
-(100, 59, '5 ', '1'),
-(101, 59, '6 ', '3'),
-(102, 60, '1 ', '3'),
-(103, 60, '2 ', '1'),
-(104, 60, '3 ', '2'),
-(105, 60, '4 ', '3'),
-(106, 60, '5 ', '2'),
-(107, 60, '6 ', '1'),
-(108, 61, '1 ', '3'),
-(109, 62, '1 ', '1'),
-(110, 62, '2 ', '2'),
-(111, 62, '3 ', '3');
+(129, 73, '1 ', '1'),
+(130, 73, '2 ', '1'),
+(131, 73, '3 ', '2'),
+(132, 73, '4 ', '2'),
+(133, 73, '5 ', '2'),
+(134, 73, '6 ', '2'),
+(135, 74, '1 ', '2'),
+(136, 74, '2 ', '2'),
+(137, 74, '3 ', '2'),
+(138, 74, '4 ', '3'),
+(139, 74, '5 ', '2'),
+(140, 74, '6 ', '3'),
+(141, 75, '1 ', '1'),
+(142, 75, '2 ', '2'),
+(143, 75, '3 ', '3'),
+(144, 75, '4 ', '2'),
+(145, 75, '5 ', '3'),
+(146, 75, '6 ', '1'),
+(147, 76, '1 ', '3'),
+(148, 76, '2 ', '1'),
+(149, 76, '3 ', '2'),
+(150, 76, '4 ', '2'),
+(151, 76, '5 ', '2'),
+(152, 76, '6 ', '2');
 
 -- --------------------------------------------------------
 
@@ -91,17 +99,17 @@ CREATE TABLE IF NOT EXISTS `jawaban` (
   `kode_dosen` varchar(20) NOT NULL,
   `kode_makul` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=63 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=77 ;
 
 --
 -- Dumping data for table `jawaban`
 --
 
 INSERT INTO `jawaban` (`id`, `kode_user`, `kode_dosen`, `kode_makul`) VALUES
-(59, 'u001', 'd001', 'm001'),
-(60, 'u001', 'd002', 'm002'),
-(61, 'u001', 'd001', 'm001'),
-(62, 'u001', 'd002', 'm002');
+(73, 'u001', 'd001', 'm001'),
+(74, 'u001', 'd002', 'm002'),
+(75, 'u003', 'd001', 'm001'),
+(76, 'u003', 'd002', 'm002');
 
 -- --------------------------------------------------------
 
@@ -125,8 +133,8 @@ CREATE TABLE IF NOT EXISTS `krs` (
 INSERT INTO `krs` (`id`, `kode_user`, `kode_makul`, `kode_dosen`, `semester`) VALUES
 (1, 'u001', 'm001', 'd001', '3'),
 (2, 'u001', 'm002', 'd002', '4'),
-(3, 'u002', 'm001', 'd001', '2'),
-(4, 'u002', 'm002', 'd002', '3');
+(3, 'u003', 'm001', 'd001', '2'),
+(4, 'u003', 'm002', 'd002', '3');
 
 -- --------------------------------------------------------
 
@@ -160,9 +168,6 @@ INSERT INTO `matakuliah` (`id`, `kode_makul`, `kode_dosen`, `nama_makul`, `sks`)
 CREATE TABLE IF NOT EXISTS `soal` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `soal` text NOT NULL,
-  `pilihan1` varchar(20) NOT NULL,
-  `pilihan2` varchar(20) NOT NULL,
-  `pilihan3` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
@@ -170,13 +175,13 @@ CREATE TABLE IF NOT EXISTS `soal` (
 -- Dumping data for table `soal`
 --
 
-INSERT INTO `soal` (`id`, `soal`, `pilihan1`, `pilihan2`, `pilihan3`) VALUES
-(1, 'Apakah dosen Anda berpenampilan menarik ?', 'ya', 'tidak', 'tidak tahu'),
-(2, 'Apakah dosen Anda selalu rapi ?', 'ya', 'tidak', 'tidak tahu'),
-(3, 'Apakah dosen Anda sering menerima telepon saat mengajar ?', 'ya', 'tidak', 'tidak tahu'),
-(4, 'Apakah dosen Anda merokok di kelas ?', 'ya', 'tidak', 'tidak tahu'),
-(5, 'Apakah dosen Anda menggunakan lcd saat mengajar ?', 'ya', 'tidak', 'tidak tahu'),
-(6, 'Apakah dosen Anda pernah masuk telat ?', 'ya', 'tidak', 'tidak tahu');
+INSERT INTO `soal` (`id`, `soal`) VALUES
+(1, 'Apakah dosen Anda berpenampilan menarik ?'),
+(2, 'Apakah dosen Anda selalu rapi ?'),
+(3, 'Apakah dosen Anda sering menerima telepon saat mengajar ?'),
+(4, 'Apakah dosen Anda merokok di kelas ?'),
+(5, 'Apakah dosen Anda menggunakan lcd saat mengajar ?'),
+(6, 'Apakah dosen Anda pernah masuk telat ?');
 
 -- --------------------------------------------------------
 
@@ -189,19 +194,22 @@ CREATE TABLE IF NOT EXISTS `users` (
   `kode_user` varchar(20) NOT NULL,
   `password` varchar(255) NOT NULL,
   `nama` varchar(50) NOT NULL,
-  `fakultas` varchar(20) NOT NULL,
+  `fakultas` varchar(30) NOT NULL,
   `level` char(1) NOT NULL,
   `angkatan` varchar(20) NOT NULL,
   `foto` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`id`, `kode_user`, `password`, `nama`, `fakultas`, `level`, `angkatan`, `foto`) VALUES
-(1, 'u001', 'ee11cbb19052e40b07aac0ca060c23ee', 'user_test', 'Informatika komputer', '2', '2012', '');
+(1, 'u001', 'ee11cbb19052e40b07aac0ca060c23ee', 'user_test', 'Informatika komputer', '2', '2012', ''),
+(2, 'u002', 'ee11cbb19052e40b07aac0ca060c23ee', 'admin', 'Staff', '1', '2012', ''),
+(3, 'u003', 'ee11cbb19052e40b07aac0ca060c23ee', 'Deni Derimawan', 'Bussiness Administration', '2', '2010', ''),
+(4, 'u004', 'ee11cbb19052e40b07aac0ca060c23ee', 'Andi Ari Asri', 'Computer Accounting', '2', '2012', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

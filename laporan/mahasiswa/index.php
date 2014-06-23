@@ -8,6 +8,7 @@
 	require_once "repository.php";
 	$repo = new Repository();
 	$result = $repo->getAll();
+	$hasil = $repo->getAllNoEub();
 
  ?>
 <!DOCTYPE html>
@@ -60,7 +61,7 @@ Beranda</a>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="logout.php" data-toggle="tooltip" data-placement="bottom" title="Log Out"><span class="glyphicon glyphicon-user"></span></a>
+          <a href="../../logout.php" data-toggle="tooltip" data-placement="bottom" title="Log Out"><span class="glyphicon glyphicon-user"></span></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -87,7 +88,7 @@ Beranda</a>
 <div class="container">
 <center><h1>Laporan Partisipasi Mahasiswa</h1></center>
 <h3>Data Mahasiswa Yang Telah EUB</h3>
-<table>
+
 	<table class="table table-bordered">
 		<tr>
 			<th width="20">No.</th>
@@ -111,15 +112,51 @@ Beranda</a>
 		?>
 
 		<tr>
-			<td colspan="2">
+			<td colspan="3">
 				<?php 
 					echo "Total data :".$repo->rowCount();
 				?>
 			</td>
 		</tr>
 	</table>
-</table>
-	
+</div>
+<div class="container">
+<h3>Data Mahasiswa Yang Belum EUB</h3>
+<table>
+	<table class="table table-bordered">
+		<tr>
+			<th width="20">No.</th>
+			<th>Nama Mahasiswa</th>
+			<th>Jurusan</th>
+		</tr>
+		<?php
+			$no = 1;
+			foreach ($hasil as $row) 
+				{
+		?>
+
+
+		<tr>
+		
+			<td><?php echo $no++; ?></td>
+			<td><?php echo $row->nama; ?></td>
+			<td><?php echo $row->fakultas; ?></td>
+
+		</tr>
+
+		<?php
+			}
+		?>
+
+		<tr>
+			<td colspan="3">
+				<?php 
+					echo "Total data :".$repo->rowCount();
+				?>
+			</td>
+		</tr>
+	</table>
+</div>
 </div>
 	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
