@@ -7,7 +7,6 @@
 
   require_once "repository.php";
   $repo = new Repository();
-  $rows = $repo->getById($_GET['id']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,8 +45,8 @@ Beranda</a>
             <li><a href="../users/index.php">Users</a></li>
             <li><a href="../dosen/index.php">Dosen</a></li>
             <li><a href="../matakuliah/index.php">Matakuliah</a></li>
-            <li><a href="../krs/index.php">KRS</a></li>
-            <li><a href="index.php">Soal</a></li>
+            <li><a href="index.php">KRS</a></li>
+            <li><a href="../soal/index.php">Soal</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -73,16 +72,32 @@ Beranda</a>
 
 <div class="container">
 
-    <h1>Edit Data Dosen</h1></center>
+    <h1>Masukkan Data KRS</h1></center>
     <form  role="form" method="post">
-    <input type="hidden" name="id" value="<?php echo $rows->id; ?>">
       <div class="form-group">
         <div>
-          <label>Pertanyaan</label>
-          <input class="form-control" value="<?php echo $rows->soal; ?>" name="soal">
+          <label>Kode User</label>
+          <input class="form-control" name="kode_user">
         </div>
       </div>
-      
+      <div class="form-group">
+        <div>
+          <label>Kode Makul</label>
+          <input class="form-control" name="kode_makul">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Kode Dosen</label>
+          <input class="form-control" name="kode_dosen">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Semester</label>
+          <input class="form-control" name="semester">
+        </div>
+      </div>
       <div class="form-group">
         <div>
           <button type="submit" class="btn btn-primary">Simpan</button>
@@ -91,6 +106,7 @@ Beranda</a>
       </div>
 
     </form>
+
 </div>
      
 
@@ -107,12 +123,14 @@ Beranda</a>
 <?php 
   if ($_POST) 
   {
-    $id = $_POST['id'];
-    $soal = $_POST['soal'];
+    $kode_user = $_POST['kode_user'];
+    $kode_makul = $_POST['kode_makul'];
+    $kode_dosen = $_POST['kode_dosen'];
+    $semester = $_POST['semester'];
     
-    if ($soal != null) 
+    if ($kode_user != null && $kode_makul != null && $kode_dosen != null) 
     {
-      $result = $repo->Update($soal,$id);
+      $result = $repo->Save($kode_user,$kode_makul,$kode_dosen,$semester);
       if ($result) 
       {
         header("location:index.php");
@@ -124,7 +142,7 @@ Beranda</a>
     }
     else
     {
-      echo "Data nama harus diisi";
+      echo "Data harus dilengkapi";
     }
   }
 ?>

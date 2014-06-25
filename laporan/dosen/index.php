@@ -46,7 +46,8 @@ Beranda</a>
           <ul class="dropdown-menu">
             <li><a href="../../master/users/index.php">Users</a></li>
             <li><a href="../../master/dosen/index.php">Dosen</a></li>
-            <li><a href="#">Matakuliah</a></li>
+            <li><a href="../../master/matakuliah/index.php">Matakuliah</a></li>
+            <li><a href="../../master/krs/index.php">KRS</a></li>
             <li><a href="../../master/soal/index.php">Soal</a></li>
           </ul>
         </li>

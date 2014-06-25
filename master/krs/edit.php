@@ -46,8 +46,8 @@ Beranda</a>
             <li><a href="../users/index.php">Users</a></li>
             <li><a href="../dosen/index.php">Dosen</a></li>
             <li><a href="../matakuliah/index.php">Matakuliah</a></li>
-            <li><a href="../krs/index.php">KRS</a></li>
-            <li><a href="index.php">Soal</a></li>
+            <li><a href="index.php">KRS</a></li>
+            <li><a href="../soal/index.php">Soal</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -73,16 +73,33 @@ Beranda</a>
 
 <div class="container">
 
-    <h1>Edit Data Dosen</h1></center>
+    <h1>Edit Data KRS</h1></center>
     <form  role="form" method="post">
     <input type="hidden" name="id" value="<?php echo $rows->id; ?>">
       <div class="form-group">
         <div>
-          <label>Pertanyaan</label>
-          <input class="form-control" value="<?php echo $rows->soal; ?>" name="soal">
+          <label>Kode User</label>
+          <input class="form-control" value="<?php echo $rows->kode_user; ?>" name="kode_user">
         </div>
       </div>
-      
+      <div class="form-group">
+        <div>
+          <label>Kode Makul</label>
+          <input class="form-control" value="<?php echo $rows->kode_makul; ?>" name="kode_makul">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Kode Dosen</label>
+          <input class="form-control" value="<?php echo $rows->kode_dosen; ?>" name="kode_dosen">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Semester</label>
+          <input class="form-control" value="<?php echo $rows->semester; ?>" name="semester">
+        </div>
+      </div>
       <div class="form-group">
         <div>
           <button type="submit" class="btn btn-primary">Simpan</button>
@@ -108,11 +125,13 @@ Beranda</a>
   if ($_POST) 
   {
     $id = $_POST['id'];
-    $soal = $_POST['soal'];
-    
-    if ($soal != null) 
+    $kode_user = $_POST['kode_user'];
+    $kode_makul = $_POST['kode_makul'];
+    $kode_dosen = $_POST['kode_dosen'];
+    $semester = $_POST['semester'];
+    if ($kode_user != null && $kode_makul != null && $kode_dosen != null) 
     {
-      $result = $repo->Update($soal,$id);
+      $result = $repo->Update($kode_user,$kode_makul,$kode_dosen,$semester,$id);
       if ($result) 
       {
         header("location:index.php");
@@ -124,7 +143,7 @@ Beranda</a>
     }
     else
     {
-      echo "Data nama harus diisi";
+      echo "Data harus dilengkapi";
     }
   }
 ?>
