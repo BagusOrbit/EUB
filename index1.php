@@ -1,5 +1,6 @@
 <?php session_start();                           
-		
+	include_once 'layout/user/header.php';
+	include_once 'layout/user/navbarUser.php';
 	if (! isset($_SESSION['login']))
 	{
 		header('location:login.php');
@@ -75,34 +76,6 @@
     <link rel="stylesheet" type="text/css" href="css/customes.css">
 </head>
 <body>
-<img src="img/head.jpg" height="100" width="1349">
-
-<nav class="navbar navbar-default" role="navigation">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"></span>
-Profile</a>		
-		</div>
-      
-	</div>
-</nav>
-
-<!-- <div class="container">
-	<div class="row">
-		<div class="col-md-8">
-			
-				<img class="img-cyrcle" src="mg/brosur depan baru.jpg" width="700">
-				
-		</div>
-		<div class="col-md-4">
-			<h2>Evaluasi Untuk Belajar</h2>
-		</div>
-			
-	</div>
-</div> -->
-
-
-
 
 <div class="container">
 <center>

@@ -1,21 +1,26 @@
-<?php 
-  
-    include_once 'layout/user/header.php';
-    include_once 'layout/user/navbar.php';
+<?php session_start();                           
+	include_once 'layout/user/header.php';
+	include_once 'layout/user/navbarPimpinan.php';
+	if (! isset($_SESSION['login']))
+	{
+		header('location:login.php');
+	}
+
+	include_once 'koneksi.php';
+
+ 	
 ?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Name Aplikasi</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/customes.css">    
-  </head>
-  <body>
-
-
+	<title>System Management</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/customes.css">
+</head>
+<body>
 <center><font color="white"><h2>Selamat Datang</h2></font></center>
 <center>
 <div class="container">
@@ -47,22 +52,15 @@
   </div>
  </center>
 
- 
-
 </div>
-<!-- <footer class="bs-docs-footer" role="contentinfo">
-  <div class="container">
-    <a href="http://www.bagusorbit.com">Bagus Orbit</a>&nbsp; &copy; 2014 -  - Corporation
-  </div>
-</footer> -->
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!--Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+

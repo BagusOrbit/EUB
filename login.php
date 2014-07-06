@@ -57,6 +57,10 @@
 			{
 				header("location:index1.php?dosen=0");	
 			}
+			elseif ($_SESSION['level']=="3") 
+			{
+				header("location:index3.php");	
+			}
 			else
 			{
 				header("location:index2.php");

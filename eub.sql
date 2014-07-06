@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jun 23, 2014 at 09:50 AM
+-- Generation Time: Jul 06, 2014 at 04:38 PM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.16
 
@@ -199,7 +199,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `angkatan` varchar(20) NOT NULL,
   `foto` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `users`
@@ -209,7 +209,8 @@ INSERT INTO `users` (`id`, `kode_user`, `password`, `nama`, `fakultas`, `level`,
 (1, 'u001', 'ee11cbb19052e40b07aac0ca060c23ee', 'user_test', 'Informatika komputer', '2', '2012', ''),
 (2, 'u002', 'ee11cbb19052e40b07aac0ca060c23ee', 'admin', 'Staff', '1', '2012', ''),
 (3, 'u003', 'ee11cbb19052e40b07aac0ca060c23ee', 'Deni Derimawan', 'Bussiness Administration', '2', '2010', ''),
-(4, 'u004', 'ee11cbb19052e40b07aac0ca060c23ee', 'Andi Ari Asri', 'Computer Accounting', '2', '2012', '');
+(4, 'u004', 'ee11cbb19052e40b07aac0ca060c23ee', 'Andi Ari Asri', 'Computer Accounting', '2', '2012', ''),
+(5, 'pimpinan', '90973652b88fe07d05a4304f0a945de8', 'pimpinan', 'Direktur', '3', '2010', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
