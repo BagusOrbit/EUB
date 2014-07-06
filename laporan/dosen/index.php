@@ -1,8 +1,21 @@
 <?php session_start();                           
-    
+  
+  
   if (! isset($_SESSION['login']))
   {
     header('location:../../login.php');
+  }
+  
+  $level = $_SESSION['level'];
+  
+  if ($level=='3' )
+  {
+  	include_once '../../layout/user/headerPimpinan.php';		
+  	include_once '../../layout/user/navbarPimpinan.php';	
+  }
+  else
+  {
+  	include_once '../../layout/webmin/navbar.php';
   }
 
 	require_once "repository.php";
@@ -22,67 +35,6 @@
     <link rel="stylesheet" type="text/css" href="../../css/customes.css">
 </head>
 <body>
-
-
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="../../index2.php"><span class="glyphicon glyphicon-home" ></span>
-Beranda</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-briefcase"></span> Master<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="../../master/users/index.php">Users</a></li>
-            <li><a href="../../master/dosen/index.php">Dosen</a></li>
-            <li><a href="../../master/matakuliah/index.php">Matakuliah</a></li>
-            <li><a href="../../master/krs/index.php">KRS</a></li>
-            <li><a href="../../master/soal/index.php">Soal</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-file"></span>Laporan<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="../../laporan/dosen/index.php">Laporan Dosen</a></li>
-            <li><a href="../../laporan/mahasiswa/index.php">Laporan Mahasiswa</a></li>
-          </ul>
-        </li>
-        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="../../logout.php" data-toggle="tooltip" data-placement="bottom" title="Log Out"><span class="glyphicon glyphicon-user"></span></a>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<!-- <div class="container">
-	<div class="row">
-		<div class="col-md-8">
-			
-				<img class="img-cyrcle" src="mg/brosur depan baru.jpg" width="700">
-				
-		</div>
-		<div class="col-md-4">
-			<h2>Evaluasi Untuk Belajar</h2>
-		</div>
-			
-	</div>
-</div> -->
-
 
 
 
