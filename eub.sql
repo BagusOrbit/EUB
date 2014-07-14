@@ -2,10 +2,10 @@
 -- version 4.0.4
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Jul 06, 2014 at 04:38 PM
--- Server version: 5.6.12-log
--- PHP Version: 5.4.16
+-- Inang: localhost
+-- Waktu pembuatan: 12 Jul 2014 pada 10.53
+-- Versi Server: 5.6.12-log
+-- Versi PHP: 5.4.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `eub`
+-- Basis data: `eub`
 --
 CREATE DATABASE IF NOT EXISTS `eub` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `eub`;
@@ -25,7 +25,7 @@ USE `eub`;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `dosen`
+-- Struktur dari tabel `dosen`
 --
 
 CREATE TABLE IF NOT EXISTS `dosen` (
@@ -36,17 +36,17 @@ CREATE TABLE IF NOT EXISTS `dosen` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
--- Dumping data for table `dosen`
+-- Dumping data untuk tabel `dosen`
 --
 
 INSERT INTO `dosen` (`id`, `kode_dosen`, `nama_dosen`) VALUES
-(1, 'd001', 'Tabah Setyo aji '),
-(2, 'd002', 'Dhendra Maruto');
+(1, 'D001', 'ali'),
+(2, 'D002', 'jony');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `hasil_jawaban`
+-- Struktur dari tabel `hasil_jawaban`
 --
 
 CREATE TABLE IF NOT EXISTS `hasil_jawaban` (
@@ -55,10 +55,10 @@ CREATE TABLE IF NOT EXISTS `hasil_jawaban` (
   `soal` varchar(20) NOT NULL,
   `jawaban` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=153 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=177 ;
 
 --
--- Dumping data for table `hasil_jawaban`
+-- Dumping data untuk tabel `hasil_jawaban`
 --
 
 INSERT INTO `hasil_jawaban` (`id`, `kode_jawaban`, `soal`, `jawaban`) VALUES
@@ -85,12 +85,36 @@ INSERT INTO `hasil_jawaban` (`id`, `kode_jawaban`, `soal`, `jawaban`) VALUES
 (149, 76, '3 ', '2'),
 (150, 76, '4 ', '2'),
 (151, 76, '5 ', '2'),
-(152, 76, '6 ', '2');
+(152, 76, '6 ', '2'),
+(153, 77, '1 ', '2'),
+(154, 77, '2 ', '3'),
+(155, 77, '3 ', '3'),
+(156, 77, '4 ', '1'),
+(157, 77, '5 ', '1'),
+(158, 77, '6 ', '2'),
+(159, 78, '1 ', '2'),
+(160, 78, '2 ', '3'),
+(161, 78, '3 ', '3'),
+(162, 78, '4 ', '2'),
+(163, 78, '5 ', '1'),
+(164, 78, '6 ', '2'),
+(165, 79, '1 ', '1'),
+(166, 79, '2 ', '2'),
+(167, 79, '3 ', '2'),
+(168, 79, '4 ', '2'),
+(169, 79, '5 ', '2'),
+(170, 79, '6 ', '2'),
+(171, 80, '1 ', '2'),
+(172, 80, '2 ', '2'),
+(173, 80, '3 ', '2'),
+(174, 80, '4 ', '2'),
+(175, 80, '5 ', '2'),
+(176, 80, '6 ', '2');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `jawaban`
+-- Struktur dari tabel `jawaban`
 --
 
 CREATE TABLE IF NOT EXISTS `jawaban` (
@@ -99,22 +123,26 @@ CREATE TABLE IF NOT EXISTS `jawaban` (
   `kode_dosen` varchar(20) NOT NULL,
   `kode_makul` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=77 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=81 ;
 
 --
--- Dumping data for table `jawaban`
+-- Dumping data untuk tabel `jawaban`
 --
 
 INSERT INTO `jawaban` (`id`, `kode_user`, `kode_dosen`, `kode_makul`) VALUES
 (73, 'u001', 'd001', 'm001'),
 (74, 'u001', 'd002', 'm002'),
 (75, 'u003', 'd001', 'm001'),
-(76, 'u003', 'd002', 'm002');
+(76, 'u003', 'd002', 'm002'),
+(77, 'u001', 'd001', 'm001'),
+(78, 'u001', 'd002', 'm002'),
+(79, 'u001', 'd001', 'm001'),
+(80, 'u001', 'd002', 'm002');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `krs`
+-- Struktur dari tabel `krs`
 --
 
 CREATE TABLE IF NOT EXISTS `krs` (
@@ -127,7 +155,7 @@ CREATE TABLE IF NOT EXISTS `krs` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
 
 --
--- Dumping data for table `krs`
+-- Dumping data untuk tabel `krs`
 --
 
 INSERT INTO `krs` (`id`, `kode_user`, `kode_makul`, `kode_dosen`, `semester`) VALUES
@@ -139,7 +167,7 @@ INSERT INTO `krs` (`id`, `kode_user`, `kode_makul`, `kode_dosen`, `semester`) VA
 -- --------------------------------------------------------
 
 --
--- Table structure for table `matakuliah`
+-- Struktur dari tabel `matakuliah`
 --
 
 CREATE TABLE IF NOT EXISTS `matakuliah` (
@@ -152,7 +180,7 @@ CREATE TABLE IF NOT EXISTS `matakuliah` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
--- Dumping data for table `matakuliah`
+-- Dumping data untuk tabel `matakuliah`
 --
 
 INSERT INTO `matakuliah` (`id`, `kode_makul`, `kode_dosen`, `nama_makul`, `sks`) VALUES
@@ -162,7 +190,7 @@ INSERT INTO `matakuliah` (`id`, `kode_makul`, `kode_dosen`, `nama_makul`, `sks`)
 -- --------------------------------------------------------
 
 --
--- Table structure for table `soal`
+-- Struktur dari tabel `soal`
 --
 
 CREATE TABLE IF NOT EXISTS `soal` (
@@ -172,7 +200,7 @@ CREATE TABLE IF NOT EXISTS `soal` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
--- Dumping data for table `soal`
+-- Dumping data untuk tabel `soal`
 --
 
 INSERT INTO `soal` (`id`, `soal`) VALUES
@@ -186,7 +214,7 @@ INSERT INTO `soal` (`id`, `soal`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Struktur dari tabel `users`
 --
 
 CREATE TABLE IF NOT EXISTS `users` (
@@ -199,18 +227,38 @@ CREATE TABLE IF NOT EXISTS `users` (
   `angkatan` varchar(20) NOT NULL,
   `foto` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
 
 --
--- Dumping data for table `users`
+-- Dumping data untuk tabel `users`
 --
 
 INSERT INTO `users` (`id`, `kode_user`, `password`, `nama`, `fakultas`, `level`, `angkatan`, `foto`) VALUES
 (1, 'u001', 'ee11cbb19052e40b07aac0ca060c23ee', 'user_test', 'Informatika komputer', '2', '2012', ''),
-(2, 'u002', 'ee11cbb19052e40b07aac0ca060c23ee', 'admin', 'Staff', '1', '2012', ''),
+(2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'Staff', '1', '2012', ''),
 (3, 'u003', 'ee11cbb19052e40b07aac0ca060c23ee', 'Deni Derimawan', 'Bussiness Administration', '2', '2010', ''),
-(4, 'u004', 'ee11cbb19052e40b07aac0ca060c23ee', 'Andi Ari Asri', 'Computer Accounting', '2', '2012', ''),
-(5, 'pimpinan', '90973652b88fe07d05a4304f0a945de8', 'pimpinan', 'Direktur', '3', '2010', '');
+(4, 'u004', 'ee11cbb19052e40b07aac0ca060c23ee', 'Andi Ari Asri', 'Computer Accounting', '2', '2012', '');
+
+-- --------------------------------------------------------
+
+--
+-- Stand-in structure for view `vw_hasil`
+--
+CREATE TABLE IF NOT EXISTS `vw_hasil` (
+`id` int(11)
+,`kode_dosen` varchar(20)
+,`kode_jawaban` int(11)
+,`jawaban` varchar(20)
+,`subtotal` double
+);
+-- --------------------------------------------------------
+
+--
+-- Struktur untuk view `vw_hasil`
+--
+DROP TABLE IF EXISTS `vw_hasil`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `vw_hasil` AS select `j`.`id` AS `id`,`j`.`kode_dosen` AS `kode_dosen`,`hj`.`kode_jawaban` AS `kode_jawaban`,`hj`.`jawaban` AS `jawaban`,sum(`hj`.`jawaban`) AS `subtotal` from (`jawaban` `j` join `hasil_jawaban` `hj` on((`j`.`id` = `hj`.`kode_jawaban`))) group by `hj`.`kode_jawaban`;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

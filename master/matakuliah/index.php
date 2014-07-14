@@ -36,10 +36,7 @@ if (isset($_GET['q']))
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Eub Application</title>
-	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/customes.css">
-    
+	<title>Eub Application</title>    
 </head>
 <body>
 
@@ -58,6 +55,7 @@ if (isset($_GET['q']))
 		</div>
 		<div class="col-md-4" align="right" >
 			<a href="insert.php"><button class="btn btn-primary" ><i class="glyphicon glyphicon-plus"></i></button></a>
+			<button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Import</button>
 		</div>
 	</div>
 	
@@ -101,12 +99,56 @@ if (isset($_GET['q']))
 	</table>
 
 </div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!--Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../../js/jquery.js"></script>
-	<script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
-	
+<!-- Modal -->
+<div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        <br>
+        <div class="bs-example bs-example-tabs">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#signin" data-toggle="tab">Import File</a></li>
+              <li class=""><a href="#why" data-toggle="tab">Caranya?</a></li>
+            </ul>
+        </div>
+      <div class="modal-body">
+        <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in" id="why">
+        <p>Pastikan File yang di upload adalah file CSV, pastikan kolom dalam file csv sudah sesuai dengan kolom di database </p>
+        <p></p><br> Please contact <a mailto:href="admin@eub"></a>Admin@evaldos</a> for any other inquiries.</p>
+        </div>
+        <div class="tab-pane fade active in" id="signin">
+            <form class="form-horizontal" enctype="multipart/form-data" method="POST" action="../../importcsv/importCSV.php">
+            <fieldset>
+            <!-- Sign In Form -->
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">File CSV :</label>
+              <div class="controls">
+                <input required="" name="file" type="file" required="">
+                <input type="hidden" name="jenis" value="matkul">
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="signin"></label>
+              <div class="controls">
+                <button id="import" name="import" class="btn btn-success">import</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+        
+    </div>
+      </div>
+      <div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>	
 </body>
 </html>

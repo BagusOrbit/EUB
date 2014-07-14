@@ -2,7 +2,7 @@
 
 	$host = 'localhost';
 	$user = 'root';
-	$pass = '';
+	$pass = 'admin';
 	$db   = 'eub';
 
 	@mysql_connect($host,$user,$pass) or die('Gagal Koneksi Database!!!');

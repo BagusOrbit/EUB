@@ -4,7 +4,7 @@
 	class Repository{
 		private $dbh;
 		private $rowCount;
-		private $query = "SELECT DISTINCT dosen.kode_dosen,nama_dosen FROM dosen JOIN jawaban ON dosen.kode_dosen = jawaban.kode_dosen JOIN hasil_jawaban ON jawaban.id = hasil_jawaban.kode_jawaban ";
+		private $query = "SELECT vw.kode_dosen,ds.nama_dosen, sum(subtotal) as total from dosen ds join vw_hasil vw on ds.kode_dosen= vw.kode_dosen  GROUP by vw.kode_dosen";
 
 		public function __construct()
 		{

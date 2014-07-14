@@ -1,0 +1,1509 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"data",
+				"data4"
+			],
+			[
+				"ko",
+				"kodedos"
+			],
+			[
+				"na",
+				"nama_makul"
+			],
+			[
+				"kode_ma",
+				"kode_matkul"
+			],
+			[
+				"sm",
+				"smtr"
+			],
+			[
+				"kod",
+				"kode_makul"
+			],
+			[
+				"kode",
+				"kode_dosen"
+			],
+			[
+				"k",
+				"kode_dosen"
+			],
+			[
+				"da",
+				"data5"
+			],
+			[
+				"ve",
+				"vertexTotal"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"rua",
+				"ruang"
+			],
+			[
+				"hea",
+				"header	<header>"
+			],
+			[
+				"her",
+				"header	<header>"
+			],
+			[
+				"tg",
+				"tglujian"
+			],
+			[
+				"ver",
+				"vertices"
+			],
+			[
+				"to",
+				"toNum"
+			],
+			[
+				"nu",
+				"num2"
+			],
+			[
+				"num",
+				"num1"
+			],
+			[
+				"sub",
+				"substring"
+			],
+			[
+				"su",
+				"substring"
+			],
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"subs",
+				"substr_replace"
+			],
+			[
+				"w",
+				"words"
+			],
+			[
+				"RUAN",
+				"ruangan"
+			],
+			[
+				"dat",
+				"data4"
+			],
+			[
+				"ru",
+				"ruang"
+			],
+			[
+				"ja",
+				"jam"
+			],
+			[
+				"tgl",
+				"tglujian"
+			],
+			[
+				"id",
+				"idMatkul"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"ne",
+				"new"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"ni",
+				"nickname"
+			],
+			[
+				"nick",
+				"nickname"
+			],
+			[
+				"nim",
+				"nimuser"
+			],
+			[
+				"in",
+				"infokandidat"
+			],
+			[
+				"poll",
+				"pollaktif"
+			],
+			[
+				"add",
+				"addkandidat"
+			],
+			[
+				"kan",
+				"kandidat"
+			],
+			[
+				"ad",
+				"addkandidat"
+			],
+			[
+				"kand",
+				"Kandidat"
+			],
+			[
+				"nmk",
+				"nmKandidat"
+			],
+			[
+				"nm",
+				"nmKandidat"
+			],
+			[
+				"fo",
+				"fotokandidat"
+			],
+			[
+				"cek",
+				"cekpilihan"
+			],
+			[
+				"ce",
+				"cekpolling"
+			],
+			[
+				"m",
+				"msg"
+			],
+			[
+				"cek_p",
+				"cek_pilihan"
+			],
+			[
+				"fu",
+				"functions"
+			],
+			[
+				"and",
+				"and_where"
+			],
+			[
+				"pola",
+				"pollarray"
+			],
+			[
+				"po",
+				"polllist"
+			],
+			[
+				"lis",
+				"listkandidats"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"ar",
+				"arsort"
+			],
+			[
+				"gar",
+				"garduindux"
+			],
+			[
+				"tgar",
+				"tgarduanak"
+			],
+			[
+				"kd",
+				"kdindux"
+			],
+			[
+				"Ga",
+				"gardu"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"EM",
+				"empty"
+			],
+			[
+				"gd",
+				"gdanaks"
+			],
+			[
+				"tr",
+				"trouble"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"srt",
+				"strtotime"
+			],
+			[
+				"cur",
+				"curtime"
+			],
+			[
+				"h",
+				"hsl"
+			],
+			[
+				"tag",
+				"tagid"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "importcsv/importCSV.php",
+			"settings":
+			{
+				"buffer_size": 2474,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "importcsv/fileUpload.html",
+			"settings":
+			{
+				"buffer_size": 453,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "master/dosen/index.php",
+			"settings":
+			{
+				"buffer_size": 5763,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "master/krs/index.php",
+			"settings":
+			{
+				"buffer_size": 4547,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "master/matakuliah/index.php",
+			"settings":
+			{
+				"buffer_size": 4533,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "laporan/dosen/index.php",
+			"settings":
+			{
+				"buffer_size": 3908,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "laporan/dosen/repository.php",
+			"settings":
+			{
+				"buffer_size": 638,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Set Syntax: Regular Expressions (Python)"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/classes/module/addjadwal/addjadwal.php",
+		"/F/R/php_data/opreksms/scripts/pln/index.php",
+		"/F/R/php_data/opreksms/scripts/pln/display.php",
+		"/F/R/php_data/sispoll/scripts/importcsv/importCSV.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/views/cmsmodule/cms_mainmenu.php",
+		"/F/R/php_data/EUB/master/dosen/insert.php",
+		"/F/R/php_data/EUB/koneksi/dbh.php",
+		"/F/R/php_data/EUB/koneksi.php",
+		"/F/R/php_data/EUB/laporan/dosen/repository.php",
+		"/C/Users/TSA/Documents/GitHub/EUB/index1.php",
+		"/F/R/php_data/EUB/index1.php",
+		"/F/R/php_data/EUB/layout/webmin/navbar.php",
+		"/F/R/php_data/EUB/laporan/dosen/index.php",
+		"/F/R/php_data/EUB/laporan/mahasiswa/index.php",
+		"/F/R/php_data/EUB/master/krs/index.php",
+		"/F/R/php_data/EUB/master/matakuliah/edit.php",
+		"/F/R/php_data/EUB/master/matakuliah/index.php",
+		"/F/R/php_data/EUB/master/dosen/index.php",
+		"/F/R/php_data/EUB/master/dosen/edit.php",
+		"/F/R/php_data/EUB/master/users/edit.php",
+		"/F/R/php_data/EUB/master/users/index.php",
+		"/F/R/php_data/EUB/master/users/insert.php",
+		"/F/R/php_data/EUB/master/matakuliah/insert.php",
+		"/F/R/php_data/EUB/master/soal/insert.php",
+		"/F/R/php_data/EUB/master/soal/index.php",
+		"/F/R/php_data/EUB/master/soal/edit.php",
+		"/F/R/php_data/EUB/master/krs/edit.php",
+		"/F/R/php_data/EUB/master/krs/insert.php",
+		"/F/R/php_data/EUB/index2.php",
+		"/F/R/php_data/EUB/index.php",
+		"/F/R/php_data/TA_Akhir/dbconfig.php",
+		"/F/R/php_data/TA_Akhir/config.php~",
+		"/F/R/php_data/TA_Akhir/examschedule.php",
+		"/F/R/php_data/TA_Akhir/formkrsmahasiswa.php",
+		"/F/R/php_data/TA_Akhir/kombinasi.php",
+		"/F/R/php_data/TA_Akhir/usage.php",
+		"/F/R/php_data/TA_Akhir/GraphColoring.class.php",
+		"/F/R/php_data/TA_Akhir/insertkrsmahasiswa.php",
+		"/F/R/php_data/jadwal/GraphColoring.class.php",
+		"/D/usage.php",
+		"/F/R/php_data/jadwal/graph.php",
+		"/F/R/php_data/graphcoloring/alphabet.php",
+		"/F/R/php_data/graphcoloring/usage.php",
+		"/F/R/php_data/graphcoloring/GraphColoring.class.php",
+		"/F/R/php_data/graphcoloring/kombinasi.php",
+		"/F/R/php_data/bilangan/index.php",
+		"/F/R/php_data/graphcoloring/alphabet",
+		"/F/R/file php/2014/JUNI/DATA Structur/graphcoloring-2006-06-01/usage.php",
+		"/F/R/file php/2014/JUNI/DATA Structur/graphcoloring-2006-06-01/GraphColoring.class.php",
+		"/F/R/php_data/graph/contoh.php",
+		"/F/R/file php/2014/JUNI/DATA Structur/PHP-GraphLib-master/graph/Mixins.php",
+		"/F/R/file php/2014/JUNI/DATA Structur/PHP-GraphLib-master/graph/contoh.php",
+		"/F/R/file php/2014/mei/absen/rfid-php/classes.php",
+		"/F/R/php_data/TA_Akhir/index.php",
+		"/F/R/php_data/TA_Akhir/menu.php",
+		"/F/R/php_data/TA_Akhir/index1.php",
+		"/F/R/php_data/jadwal/config.php",
+		"/F/R/php_data/jadwal/index.php",
+		"/F/R/php_data/TA_Akhir/config.php",
+		"/F/R/project management/skripsi jadwal/TA_Akhir/data/dosen.txt",
+		"/F/R/file php/2014/mei/absen/mingguan.php",
+		"/F/R/php_data/mobita/index.php",
+		"/F/R/php_data/jadwal/function.php",
+		"/F/R/file php/2014/mei/absen/index.php",
+		"/F/R/file php/2014/mei/absen/dashboard.php",
+		"/F/R/php_data/jadwal/display.php",
+		"/F/R/php_data/mobita/action.php",
+		"/F/R/project management/skripsi jadwal/TA_Akhir/data data/si_ikom/backoffice/jadwal/autocomplete.php",
+		"/F/R/project management/skripsi jadwal/penjadwalan/jadwaldosen.php",
+		"/F/R/project management/skripsi jadwal/TA_Akhir/matkulumum.php",
+		"/F/R/project management/skripsi jadwal/TA_Akhir/matkul.php",
+		"/F/R/project management/skripsi jadwal/TA_Akhir/insertdosen.php",
+		"/F/R/php_data/Evaluations/script/EUB/index.php",
+		"/F/R/php_data/laravel-tricks/app/views/layouts/main.blade.php",
+		"/F/R/php_data/laravel-tricks/app/views/partials/navigation.blade.php",
+		"/F/R/php_data/laravel-tricks/app/views/home/awal.blade.php",
+		"/F/R/file php/2014/mei/bst3/Index.html",
+		"/F/R/php_data/sispoll/scripts/importcsv/fileUpload.html",
+		"/C/Users/TSA/Pictures/test.csv",
+		"/H/Tabah[tsa]/pribadi/R/php_data/importcsv/importCSV.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/views/cmsinc/dashboard.php",
+		"/F/R/php_data/sispoll/wwwroot/application/bootstrap.php",
+		"/F/R/php_data/sispoll/scripts/json.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/classes/module/daemon/api.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/masjidku/readjson.php",
+		"/F/R/php_data/sispoll/scripts/main_function.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/masjidku/main_function.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/masjidku/inputjson.php",
+		"/H/Tabah[tsa]/pribadi/pindahan/php/public_html/ryan/application/classes/controller/admin/anggota.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/classes/module/cmsfeeds/feeds.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/views/cmsinc/users.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/classes/module/cmsusers/users.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/support/classes/helper/arraylist.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/classes/module/cmsujian/ujian.php",
+		"/C/gammu/bin/smsdrc",
+		"/C/gammu/bin/gammurc",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/classes/module/cmspembayaran/pembayaran.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/classes/module/daemon/daemon.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/views/cmsmodule/menuleftdashboard.php",
+		"/F/R/php_data/l4invoice/composer.json",
+		"/F/R/php_data/l4invoice/README.md",
+		"/C/wamp/bin/php/php5.4.12/php.ini",
+		"/C/wamp/bin/php/php5.4.12/phpForApache.ini",
+		"/F/R/php_data/l4invoice/app/config/database.php",
+		"/F/R/php_data/l4invoice/app/database/migrations/2013_11_05_180133_confide_setup_users_table.php",
+		"/F/R/php_data/l4invoice/app/database/seeds/DatabaseSeeder.php",
+		"/F/R/php_data/l4invoice/app/database/seeds/UserTableSeeder.php",
+		"/F/R/php_data/l4invoice/php.ini",
+		"/F/R/php_data/l4invoice/composer.lock",
+		"/F/R/php_data/laravel-tricks/composer.lock",
+		"/F/R/php_data/l4invoice/server.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/websxxxx/views/inspiringinc/home.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/websxxx/views/inspiringinc/home.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/webs1/views/inspiringinc/home.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/websxxxx/views/v_inspiring.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/backend/views/cmsmodule/js_animation_nivo.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/websxxx/classes/controller/controler.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/websxxxx/views/websmodule/js_animation_nivo.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/webs/classes/module/webpages/webpages.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/application/bootstrap.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/websxxxx/views/dev_inspiring.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/webs1/views/inspiringinc/pages.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm/modules/webs1/views/inspiringinc/feeds.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/xxxwebs/views/inspiringinc/home.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/webs/views/dev_inspiring.php",
+		"/F/R/php_data/sispoll/wwwroot/modules/webs/views/v_inspiring.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm1/application/bootstrap.php",
+		"/H/Tabah[tsa]/pribadi/R/php_data/ukm1/modules/webs/views/r_theme.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"case",
+			">\n",
+			"dist",
+			"distr",
+			"9",
+			"data4",
+			"';\n",
+			"header",
+			"$data4[0]",
+			"dbug",
+			"vertexTotal",
+			"colorTheGraph",
+			"));",
+			"}?>",
+			"();\n",
+			"DB",
+			"database",
+			"{\n",
+			"DB",
+			"                }",
+			"{",
+			"daftar",
+			"800",
+			"dro",
+			"re",
+			"re-",
+			"retype",
+			"pecah[3",
+			"priv",
+			"idcard",
+			"cekdo",
+			"user_pri",
+			"role",
+			"arraylis",
+			"poll",
+			"user_privilege",
+			"arrayl",
+			"                    \n",
+			"formatPoll",
+			"faq",
+			"curl",
+			"ani",
+			"js",
+			"sli",
+			"data",
+			"pbk",
+			"contact",
+			"pbk_title",
+			"pac",
+			"add",
+			"contact_",
+			"addp",
+			",\n",
+			"wiz",
+			"wiza",
+			"wizar",
+			"wiza",
+			"select contact method",
+			"about",
+			"save",
+			"compose",
+			"jam"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$data4[1]",
+			"gardu"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "importcsv/importCSV.php",
+					"settings":
+					{
+						"buffer_size": 2474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								666,
+								666
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "importcsv/fileUpload.html",
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								363,
+								363
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "master/dosen/index.php",
+					"settings":
+					{
+						"buffer_size": 5763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5746,
+								3637
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1546.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "master/krs/index.php",
+					"settings":
+					{
+						"buffer_size": 4547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1442,
+								1326
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 603.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "master/matakuliah/index.php",
+					"settings":
+					{
+						"buffer_size": 4533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4517,
+								2407
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "laporan/dosen/index.php",
+					"settings":
+					{
+						"buffer_size": 3908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2027,
+								2027
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 945.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "laporan/dosen/repository.php",
+					"settings":
+					{
+						"buffer_size": 638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true
+}
